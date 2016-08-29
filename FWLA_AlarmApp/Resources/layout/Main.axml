@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:src="@drawable/tlf"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/alarmAppImage" />
+    <Button
+        android:id="@+id/btnShowAlarms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/showAlarms" />
+    <Button
+        android:id="@+id/btnOpenSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/openSettings" />
+    <Button
+        android:id="@+id/btnStopService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stopService" />
+    <TextView
+        android:text="@string/serviceStateStopped"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/msgText"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:padding="10dp"
+        android:gravity="center" />
+</LinearLayout>

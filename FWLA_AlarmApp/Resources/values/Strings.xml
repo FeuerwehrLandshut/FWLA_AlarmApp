@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ApplicationName">FWLA AlarmApp</string>
+  <string name="app_name">FWLA AlarmApp</string>
+  <string name="showAlarms">Alarmierungen anzeigen</string>
+  <string name="openSettings">Einstellungen</string>
+  <string name="stopService">Stop AlarmApp</string>
+  <string name="startService">Start AlarmApp</string>
+  <string name="serviceStateRunning">Alarmierungen werden empfangen</string>
+  <string name="serviceStateStopped">Alarmierungen werden nicht empfangen</string>
+  <string name="ListAlarmsActivity">Liste Alarmierungen</string>
+  <string name="clearDatabase">Alle Alarme löschen</string>
+  <string name="Options">Optionen</string>
+</resources>
